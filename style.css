@@ -1,6 +1,6 @@
 html {
     --main-bg-color: #0B2447;
-    --text-color: #A5D7E8;
+    --text-color: white;
     --card-color: #19376D;
     --elements-color: #576CBC;
     font-family: 'Roboto', sans-serif;
@@ -35,8 +35,7 @@ body {
 }
 
 .weather-card {
-    /* width: 500px;
-    height: 700px; */
+    width: 500px;
     background-color: var(--card-color);
     margin: 50px auto;
     border-radius: 20px;
@@ -50,9 +49,13 @@ body {
     padding: 20px;
 }
 
+.weather-card-search {
+    width: 30px;
+}
+
 .weather-card-image {
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 .weather-card-footer {

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
     <title>Weather App</title>
 </head>
 <body>
@@ -16,20 +17,19 @@
         <div class="wrapper">
             <div class="weather-card">
                 <div class="weather-card-header">
-                    <span class="material-symbols-outlined">
-                        near_me
-                    </span>
-                    <p class="weather-card-title">Петрозаводск</p>
-                    <input type="search">
+                    <button>
+                        <span class="material-symbols-outlined">
+                            near_me
+                        </span>
+                    </button>
+                    <img class="weather-card-yandex-logo" src="./assests/img/logo.png" />
+                    <input class="weather-card-search" id="weather-card-search" type="search">
                 </div>
-                <div class="weather-card-image">
-                    <span class="material-symbols-outlined">
-                        ac_unit
-                    </span>
-                </div>
+                <img class="weather-card-image" src="./assests/img/снег.svg" width="150px" />
                 <div class="weather-card-footer">
-                    <p>-5</p>
-                    <p>Ветер</p>
+                    <p class="weather-card-footer-temperature">-5</p>
+                    <p class="weather-card-footer-city">Петрозаводск</p>
+                    <p class="weather-card-footer-condition">Ветер</p>
                 </div>
             </div>
         </div>
