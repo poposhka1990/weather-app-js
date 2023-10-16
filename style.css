@@ -1,6 +1,6 @@
 html {
     --main-bg-color: #0B2447;
-    --text-color: white;
+    --text-color: #A5D7E8;
     --card-color: #19376D;
     --elements-color: #576CBC;
     font-family: 'Roboto', sans-serif;
@@ -9,6 +9,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 25px;
 }
 
 .material-symbols-outlined {
@@ -49,8 +50,16 @@ body {
     padding: 20px;
 }
 
+.weather-card-form {
+}
+
 .weather-card-search {
-    width: 30px;
+    width: 130px;
+    height: 35px;
+}
+
+.search-button-image {
+    display: flex;
 }
 
 .weather-card-image {

@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    <script src="./index.js"></script>
     <title>Weather App</title>
 </head>
 <body>
@@ -22,8 +21,15 @@
                             near_me
                         </span>
                     </button>
-                    <img class="weather-card-yandex-logo" src="./assests/img/logo.png" />
-                    <input class="weather-card-search" id="weather-card-search" type="search">
+                    <form class="form" id="form">
+                        <input name="search" class="weather-card-search" type="search" id="search-input" />
+                        <label for="search"></label>
+                        <button id="search-button">
+                            <div class="material-symbols-outlined search-button-image">
+                                search
+                            </div>
+                        </button>
+                    </form>
                 </div>
                 <img class="weather-card-image" src="./assests/img/снег.svg" width="150px" />
                 <div class="weather-card-footer">
@@ -35,5 +41,6 @@
         </div>
         <footer class="footer">© Илья Попов 2023</footer>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
